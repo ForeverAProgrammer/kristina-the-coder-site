@@ -25,9 +25,9 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful starter",
+    title: "Kristina Codes",
   },
-  pathPrefix: "/gatsby-contentful-starter",
+  pathPrefix: "/kristina-codes",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
