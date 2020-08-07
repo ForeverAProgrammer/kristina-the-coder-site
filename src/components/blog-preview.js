@@ -8,7 +8,7 @@ export default ({ post }) => (
       <Link to={`/blog/${post.slug}`}>{post.title}</Link>
     </h3>
     <small>{post.publishDate}</small>
-    <p
+    <div
       dangerouslySetInnerHTML={{
         __html: post.description.childMarkdownRemark.html,
       }}
